@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HappyPaws</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Poppins:400,500i,900i|VT323&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+    <nav class="navbar" id="nav">
+        <a class="item siteName" href="index.html">HappyPaws</a>
+        <!-- <a class="item" href="about.html">About</a> -->
+        <!-- <a class="item" href="animalList.html">Find a Dog</a> -->
+        <!-- <a class="item" href="Policy.html">Policy</a> -->
+        <!-- <a class="item" href="Success.html">Stories</a> -->
+		<!-- <a class="item" href="Resources.html">Resources</a> -->
+        <a class="item icon" href="javascript:void(0);" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</header>
+
+<section class="container cover salmon1">
+    <div class="row">
+        <div class="column-two">
+            <div class="wrapper">
+                <h1 class="cover-heading">Furry, friendly, and fabulous</h1>
+			<p class="description">Keep track of street dogs with our machine learning-powered webapp.</p>
+                <!-- <p class="description"</p> -->
+                <br><a href="#" class="button left">Get Started</a>
+            </div>
+        </div>
+        <div class="column-two">
+            <img src="assets/img/Facebook.gif" alt="Dog animation" />
+            <!-- image link: https://dribbble.com/shots/5253258-Pup -->
+        </div>
+    </div>
+</section>
+
+<section class="banner first"></section>
+
+<section class="container white">
+        <div class="wrapper">
+            <h2>HappyPaws</h2>
+            <p class="description">We are a team of passionate dog lovers dedicated to improving the lives of street dogs through the power of technology. Our machine learning-powered webapp helps to identify street dogs, verify vaccinations, and predict virus outbreaks. We also offer a selection of street dogs available for adoption through our platform.
+
+</p>
+            <!-- <p class="description">We rescue chained, penned, abused, and neglected dogs</p> -->
+            <br><a href="about.html" class="button">More About Us</a>
+        </div>
+
+</section>
+
+<section class="banner second"></section>
+
+<section class="container white" id="whatToDo">
+    <div class="row">
+        <div class="column-three">
+            <div class="wrapper-icon">
+                <img src="assets/icon/adopt.png" alt="Policy icon" />
+                <h3>Adopt a paw</h3>
+                <p>Learn about our adoption policies!</p>
+                <a href="adopt.html" class="button-small">See Policy</a>
+            </div>
+        </div>
+        <div class="column-three">
+            <div class="wrapper-icon">
+                <img src="assets/icon/vaccine.png" alt="Finding icon" />
+                <h3>Verification</h3>
+                <p>vacation status</p>
+				<a href="animalList.html" class="button-small">Check</a>
+            </div>
+        </div>
+        <div class="column-three">
+            <div class="wrapper-icon">
+                <img src="assets/icon/microscope.png" alt="Story icon" />
+                <h3>Disease Prediction</h3>
+                <p>predict viruses in paw</p>
+		        <a href="Policy.html" class="button-small">Check</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <!-- <p>@Fur&Friendz All rights reserved</p> -->
+    
+  <p> ©Fur&Friendz All rights reserved </p>
+   
+</footer>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("nav");
+        if (x.className === "navbar") {
+        x.className += " responsive";
+        } else {
+        x.className = "navbar";
+        }
+    }
+</script>
+
+</body>
